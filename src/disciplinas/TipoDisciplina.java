@@ -10,4 +10,16 @@ package disciplinas;
  */
 public enum TipoDisciplina {
     
+    Futbol("Futbol"),Basketball("Basketball"),Voleibol("Voleibol");
+    
+    private String tipo;
+
+    public String getTipo() {
+        return tipo;
+    }
+
+    private TipoDisciplina(String tipo) {
+        this.tipo = tipo;
+    }
+    
 }
